@@ -3,10 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "0634114004";
 
-$database="myDB";
-
 // Create connection
-
 $conn = mysqli_connect($servername, $username, $password);
 
 // Check connection
@@ -15,6 +12,5 @@ if (!$conn) {
   mysqli_close($conn);
 }
 echo "Connected successfully";
-
 mysqli_close($conn);
 ?>
