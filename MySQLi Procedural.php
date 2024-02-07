@@ -3,11 +3,11 @@ $servername = "localhost";
 $username = "root";
 $password = "0634114004";
 
-$database="myDB";
+// $database="myDB";
 
 // Create connection
 
-$conn = mysqli_connect($servername,$database, $username, $password);
+$conn = mysqli_connect($servername, $username, $password);
 
 // Check connection
 if (!$conn) {
